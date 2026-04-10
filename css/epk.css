@@ -1,0 +1,96 @@
+.epk-hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.epk-hero h1 {
+    font-size: 2.8rem;
+}
+
+.epk-video {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.epk-video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border: none;
+}
+
+.epk-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.epk-bio div {
+    text-align: left;
+}
+
+.epk-bio h2 {
+    margin-bottom: 15px;
+}
+
+.epk-bio p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.epk-images {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.image-grid img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.epk-downloads {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.epk-downloads .btn {
+    display: inline-block;
+    margin: 10px;
+}
+
+.epk-contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.epk-contact a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+    .epk-bio {
+        flex-direction: row;
+    }
+
+    .epk-bio div {
+        flex: 1;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

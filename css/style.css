@@ -67,6 +67,22 @@ main a {
     text-decoration: none;
 }
 
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section iframe {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
 footer {
     display: block;
     text-align: center;

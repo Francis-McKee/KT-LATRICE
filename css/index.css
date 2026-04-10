@@ -21,7 +21,7 @@ section h2 {
 
 a button {
     width: 150px;
-    background-color: #555;
+    background-color: black;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -33,7 +33,7 @@ a button {
 }
 
 a button:hover {
-    background-color: #9C8B7E;
+    background-color: #555;
 }
 
 .music iframe,
