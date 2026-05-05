@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 form {
@@ -62,4 +63,13 @@ select:focus {
 input::placeholder,
 textarea::placeholder {
     color: #999;
+}
+
+.contact-hero,
+.contact-info {
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 10px;
 }

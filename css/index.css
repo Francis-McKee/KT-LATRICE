@@ -12,7 +12,12 @@ section h2 {
 }
 
 .hero {
-    padding: 120px 20px;
+    padding: 20px;
+}
+
+.hero-img {
+    max-width: 700px;
+    height: auto;
 }
 
 .hero-buttons {
@@ -49,6 +54,10 @@ a button:hover {
 }
 
 @media screen and (max-width:768px) {
+
+    .hero-img {
+        width: 100%;
+    }
 
     .hero h1 {
         font-size: 2.2rem;
