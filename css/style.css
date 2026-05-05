@@ -79,8 +79,21 @@ section iframe {
     margin-top: 20px;
 }
 
-.btn {
-    margin-top: 15px;
+a button {
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+a button:hover {
+    background-color: #555;
 }
 
 footer {
